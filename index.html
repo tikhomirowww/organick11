@@ -12,6 +12,14 @@
       href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -61,8 +69,11 @@
         <img src="./images/about.png" alt="about image" class="about__left" />
         <div class="about__right">
           <p class="green-title">About Us</p>
-          <h2 class="main-title">We Believe in Working Accredited Farmers</h2>
-          <p class="about__right-description">
+          <h2 class="main-title">
+            We Believe in Working <br />
+            Accredited Farmers
+          </h2>
+          <p class="about__right-description desc-text">
             Simply dummy text of the printing and typesetting industry. Lorem
             had ceased to been the industry's standard dummy text ever since the
             1500s, when an unknown printer took a galley.
@@ -71,8 +82,8 @@
             <li>
               <img src="./images/about-list1.svg" alt="" />
               <div class="list-text">
-                <h3>Organic Foods Only</h3>
-                <p>
+                <h3 class="main-title sm">Organic Foods Only</h3>
+                <p class="desc-text">
                   Simply dummy text of the printing and typesetting industry.
                   Lorem Ipsum
                 </p>
@@ -81,15 +92,33 @@
             <li>
               <img src="./images/about-list2.svg" alt="" />
               <div class="list-text">
-                <h3>Quality Standards</h3>
-                <p>
+                <h3 class="main-title sm">Quality Standards</h3>
+                <p class="desc-text">
                   Simply dummy text of the printing and typesetting industry.
                   Lorem Ipsum
                 </p>
               </div>
             </li>
           </ul>
+          <button class="organick-btn dark">
+            <p>Shop now</p>
+            <img src="./images/arrow-right.svg" />
+          </button>
         </div>
+      </section>
+
+      <section id="products">
+        <div class="products__title">
+          <p class="green-title">Categories</p>
+          <h2 class="main-title">Our Products</h2>
+        </div>
+        <div class="products__box">
+          <div class="card"></div>
+        </div>
+        <button class="organick-btn dark">
+          <p>Load More</p>
+          <img src="./images/arrow-right.svg" />
+        </button>
       </section>
     </div>
   </body>

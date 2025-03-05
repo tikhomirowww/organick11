@@ -71,7 +71,7 @@
   background-image: url(../images/hero.jpg);
   height: 95vh;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   display: flex;
   align-items: center;
 }
@@ -86,11 +86,15 @@
   font-family: "Yellowtail", cursive;
   font-weight: 400;
   font-style: normal;
+  margin-bottom: 8px;
 }
 
 h1 {
   color: var(--primary-color);
   font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 800;
 }
 
 .organick-btn {
@@ -105,6 +109,11 @@ h1 {
   border: none;
   cursor: pointer;
   transition: 0.3s;
+
+  &.dark {
+    background-color: var(--primary-color);
+    color: white;
+  }
 }
 
 .organick-btn:hover {
@@ -120,4 +129,55 @@ h1 {
 
 #sales img {
   border-radius: 30px;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  padding-inline: 100px;
+  background-color: var(--bg-color);
+}
+
+.about__right {
+  .main-title {
+    margin-bottom: 14px;
+  }
+}
+
+.main-title {
+  font-size: 50px;
+  color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+
+  &.sm {
+    font-size: 25px;
+  }
+}
+
+.about__left {
+  width: 50%;
+}
+
+.desc-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--desc-color);
+}
+
+.about__right-list {
+  list-style-type: none;
+  margin-block: 46px;
+
+  li {
+    display: flex;
+    gap: 46px;
+    margin-top: 30px;
+
+    .main-title {
+      margin-bottom: 7px;
+    }
+  }
 }
