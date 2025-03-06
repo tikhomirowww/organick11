@@ -181,3 +181,9 @@ h1 {
     }
   }
 }
+
+.products__title {
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+}
