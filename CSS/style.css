@@ -186,6 +186,7 @@ h1 {
   margin: auto;
   width: fit-content;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .card {
@@ -243,4 +244,23 @@ h1 {
 .new {
   margin-left: 8px;
   font-size: 18px;
+}
+
+.products__box {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+#products {
+  margin-top: 150px;
+}
+
+.btn-wrapper {
+  margin: auto;
+  width: fit-content;
+  margin-top: 80px;
 }
