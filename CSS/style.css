@@ -187,3 +187,60 @@ h1 {
   width: fit-content;
   text-align: center;
 }
+
+.card {
+  border: 2px solid var(--border-color);
+  width: 20%;
+  padding: 20px 30px;
+  border-radius: 30px;
+
+  .organick-btn {
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  hr {
+    margin-block: 15px;
+    border: none;
+    background-color: var(--border-color);
+    height: 2px;
+  }
+
+  .main-title:first-child {
+    font-size: 20px;
+    margin-bottom: 13px;
+  }
+
+  .card__info {
+    display: flex;
+    justify-content: space-between;
+
+    .card__rating {
+      object-fit: contain;
+    }
+  }
+}
+
+.card__price {
+  display: flex;
+  align-items: center;
+}
+
+.card__img {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+.old {
+  color: var(--old-price-color);
+  font-size: 15px;
+  text-decoration: line-through;
+}
+
+.new {
+  margin-left: 8px;
+  font-size: 18px;
+}
