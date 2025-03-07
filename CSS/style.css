@@ -268,4 +268,5 @@ h1 {
 #review {
   height: 90vh;
   background-image: url(../images/review-bg.png);
+  background-size: cover;
 }
