@@ -304,6 +304,7 @@ hr {
 
 .review__desc {
   margin-block: 25px;
+  text-align: center;
 }
 
 .numbers-item {
@@ -329,4 +330,11 @@ hr {
       color: var(--primary-color);
     }
   }
+}
+
+.review__numbers {
+  display: flex;
+  margin: auto;
+  width: fit-content;
+  gap: 50px;
 }
