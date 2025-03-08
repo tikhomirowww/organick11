@@ -355,3 +355,7 @@ footer {
 .footer__item {
   text-align: end;
 }
+
+.footer__top {
+  display: flex;
+}
