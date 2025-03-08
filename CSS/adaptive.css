@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+  .nav__list,
+  .nav__search {
+    display: none;
+  }
+}
