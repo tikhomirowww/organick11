@@ -338,3 +338,20 @@ hr {
   width: fit-content;
   gap: 50px;
 }
+
+footer {
+  font-family: "Open Sans", sans-serif;
+
+  .main-title {
+    font-size: 30px;
+    margin-bottom: 32px;
+  }
+
+  .desc-text {
+    margin-bottom: 30px;
+  }
+}
+
+.footer__item {
+  text-align: end;
+}
