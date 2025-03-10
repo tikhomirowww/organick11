@@ -1,20 +1,23 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .nav__list{
     display: none;
   }
   .nav__search {
     display: none;
   }
-}
-
-@media (max-width) {
-  
-}
-
-
-
-@media screen and (min-width: 769px) {
   .menu{
-    display: none;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .nav__search-input input{
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .nav__search-input input{
+    width: 376px;
   }
 }

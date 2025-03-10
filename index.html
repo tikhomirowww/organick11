@@ -48,7 +48,7 @@
 
         <aside>
             <button class="aside-close">X</button>
-            <ul class="nav__list">
+            <ul class="nav__list-mobile">
                 <li>Home</li>
                 <li>About</li>
                 <li>Pages</li>
@@ -341,12 +341,15 @@
   <script>
     const menuBtn = document.querySelector(".menu");
     const aside = document.querySelector("aside");
+    const body = document.querySelector('body')
     const closeBtn = document.querySelector(".aside-close");
     closeBtn.addEventListener("click", () => {
       aside.style.display = "none";
+        body.style.overflow = "auto"
     });
     menuBtn.addEventListener("click", () => {
       aside.style.display = "flex";
+      body.style.overflow = 'hidden'
     });
   </script>
 </html>

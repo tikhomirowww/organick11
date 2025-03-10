@@ -408,6 +408,20 @@ footer {
 
 .menu {
   width: 40px;
+  display: none;
 }
 
+body{
+  position: relative;
+}
 
+aside {
+  display: none;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+}
