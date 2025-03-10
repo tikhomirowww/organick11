@@ -268,7 +268,7 @@ hr {
 
 #review {
   margin-top: 150px;
-  height: 90vh;
+  height: 100vh;
   background-image: url(../images/review-bg.png);
   background-size: cover;
 }
@@ -409,3 +409,5 @@ footer {
 .menu {
   width: 40px;
 }
+
+

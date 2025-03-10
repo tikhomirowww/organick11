@@ -45,6 +45,18 @@
           </div>
         </div>
         <img class="menu" src="./images/menu.svg" />
+
+        <aside>
+            <button class="aside-close">X</button>
+            <ul class="nav__list">
+                <li>Home</li>
+                <li>About</li>
+                <li>Pages</li>
+                <li>Shop</li>
+                <li>Projects</li>
+                <li>News</li>
+              </ul>
+        </aside>
       </nav>
 
       <section id="hero">
@@ -325,4 +337,16 @@
       </footer>
     </div>
   </body>
+
+  <script>
+    const menuBtn = document.querySelector(".menu");
+    const aside = document.querySelector("aside");
+    const closeBtn = document.querySelector(".aside-close");
+    closeBtn.addEventListener("click", () => {
+      aside.style.display = "none";
+    });
+    menuBtn.addEventListener("click", () => {
+      aside.style.display = "flex";
+    });
+  </script>
 </html>
