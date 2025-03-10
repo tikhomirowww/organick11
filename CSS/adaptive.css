@@ -14,6 +14,10 @@
   .nav__search-input input{
     width: 150px;
   }
+
+  aside{
+    display: none !important;
+  }
 }
 
 @media screen and (min-width: 1300px) {
