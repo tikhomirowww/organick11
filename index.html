@@ -21,6 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
   <body>
     <div class="container">
@@ -75,8 +76,8 @@
       </section>
 
       <section id="sales">
-        <img src="./images/sales1.jpg" alt="sales1" />
-        <img src="./images/sales2.jpg" alt="sales2" />
+        <img class="sales__not__mobile" src="./images/sales1.jpg" alt="sales1" />
+        <img class="sales__not__mobile" src="./images/sales2.jpg" alt="sales2" />
 
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -87,9 +88,6 @@
                 <img src="./images/sales2.jpg" alt="sales2" />
               </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
           </div>
       </section>
 
@@ -370,16 +368,13 @@
 
 <script>
     var swiper = new Swiper(".mySwiper", {
-      cssMode: true,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
-      pagination: {
-        el: ".swiper-pagination",
-      },
       mousewheel: true,
       keyboard: true,
+      allowTouchMove: true
     });
   </script>
 </html>

@@ -25,3 +25,15 @@
     width: 376px;
   }
 }
+
+@media screen and (min-width: 1400px) {
+  .swiper{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .sales__not__mobile{
+    display: none;
+  }
+}
