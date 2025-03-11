@@ -101,4 +101,63 @@
   .products__box {
     display: none;
   }
+
+  .card {
+    width: 40%;
+
+    .main-title {
+      font-size: 20px;
+    }
+  }
+
+  .swiper-button-next {
+    right: 10%;
+  }
+
+  .swiper-button-prev {
+    left: 10%;
+  }
+
+  #review {
+    height: fit-content;
+    padding-block: 30px;
+    background-size: contain;
+
+    .main-title {
+      font-size: 16px;
+    }
+
+    .desc-text {
+      font-size: 12px;
+    }
+  }
+
+  .footer__top {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .footer__item {
+    text-align: center;
+
+    &.central {
+      order: -1;
+      width: 90%;
+      border-inline: none;
+    }
+
+    &:first-child {
+      text-align: center;
+    }
+  }
+
+  .footer__icons {
+    margin-top: 20px;
+    gap: 50px;
+  }
+
+  .footer__bottom {
+    margin-top: 0;
+  }
 }
