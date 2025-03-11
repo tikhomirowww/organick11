@@ -1,39 +1,39 @@
 @media screen and (max-width: 1000px) {
-  .nav__list{
+  .nav__list {
     display: none;
   }
   .nav__search {
     display: none;
   }
-  .menu{
+  .menu {
     display: flex;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .nav__search-input input{
+  .nav__search-input input {
     width: 150px;
   }
 
-  aside{
+  aside {
     display: none !important;
   }
 }
 
 @media screen and (min-width: 1300px) {
-  .nav__search-input input{
+  .nav__search-input input {
     width: 376px;
   }
 }
 
 @media screen and (min-width: 1400px) {
-  .swiper{
+  .swiper {
     display: none;
   }
 }
 
 @media screen and (max-width: 1399px) {
-  .sales__not__mobile{
+  .sales__not__mobile {
     display: none;
   }
 }

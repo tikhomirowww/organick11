@@ -4,9 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Organick</title>
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <link rel="stylesheet" href="./CSS/vars.css" />
-    <link rel="stylesheet" href="./CSS/adaptive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +18,13 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/vars.css" />
+    <link rel="stylesheet" href="./CSS/adaptive.css" />
   </head>
   <body>
     <div class="container">
@@ -48,15 +51,15 @@
         <img class="menu" src="./images/menu.svg" />
 
         <aside>
-            <button class="aside-close">X</button>
-            <ul class="nav__list-mobile">
-                <li>Home</li>
-                <li>About</li>
-                <li>Pages</li>
-                <li>Shop</li>
-                <li>Projects</li>
-                <li>News</li>
-              </ul>
+          <button class="aside-close">X</button>
+          <ul class="nav__list-mobile">
+            <li>Home</li>
+            <li>About</li>
+            <li>Pages</li>
+            <li>Shop</li>
+            <li>Projects</li>
+            <li>News</li>
+          </ul>
         </aside>
       </nav>
 
@@ -76,19 +79,27 @@
       </section>
 
       <section id="sales">
-        <img class="sales__not__mobile" src="./images/sales1.jpg" alt="sales1" />
-        <img class="sales__not__mobile" src="./images/sales2.jpg" alt="sales2" />
+        <img
+          class="sales__not__mobile"
+          src="./images/sales1.jpg"
+          alt="sales1"
+        />
+        <img
+          class="sales__not__mobile"
+          src="./images/sales2.jpg"
+          alt="sales2"
+        />
 
         <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="./images/sales1.jpg" alt="sales1" />
-              </div>
-              <div class="swiper-slide">
-                <img src="./images/sales2.jpg" alt="sales2" />
-              </div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/sales1.jpg" alt="sales1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/sales2.jpg" alt="sales2" />
             </div>
           </div>
+        </div>
       </section>
 
       <section id="about">
@@ -353,30 +364,30 @@
   <script>
     const menuBtn = document.querySelector(".menu");
     const aside = document.querySelector("aside");
-    const body = document.querySelector('body')
+    const body = document.querySelector("body");
     const closeBtn = document.querySelector(".aside-close");
     closeBtn.addEventListener("click", () => {
       aside.style.display = "none";
-        body.style.overflow = "auto"
+      body.style.overflow = "auto";
     });
     menuBtn.addEventListener("click", () => {
       aside.style.display = "flex";
-      body.style.overflow = 'hidden'
+      body.style.overflow = "hidden";
     });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<script>
+  <script>
     var swiper = new Swiper(".mySwiper", {
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
       allowTouchMove: true,
-      loop:true,
+      loop: true,
       autoplay: {
         delay: 5000,
-    },
+      },
     });
   </script>
 </html>
