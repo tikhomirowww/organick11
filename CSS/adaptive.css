@@ -76,4 +76,29 @@
   #sales {
     padding-block: 80px;
   }
+
+  #about {
+    flex-direction: column-reverse;
+    padding-block: 20px;
+  }
+
+  .main-title {
+    font-size: 35px;
+
+    &.sm {
+      font-size: 20px;
+    }
+  }
+
+  .desc-text {
+    font-size: 14px;
+  }
+
+  #products {
+    margin-top: 50px;
+  }
+
+  .products__box {
+    display: none;
+  }
 }
