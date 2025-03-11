@@ -37,3 +37,43 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .numbers-item {
+    width: 100px;
+    height: 100px;
+  }
+
+  #hero {
+    height: 44vh;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .green-title {
+    font-size: 20px;
+  }
+
+  .hero__title {
+    margin-left: 100px;
+  }
+
+  .organick-btn {
+    padding: 12px 20px;
+  }
+
+  .logo {
+    width: 140px;
+  }
+
+  .nav {
+    padding: 20px 0;
+  }
+
+  #sales {
+    padding-block: 80px;
+  }
+}
