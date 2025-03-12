@@ -161,3 +161,56 @@
     margin-top: 0;
   }
 }
+
+@media screen and (max-width: 426px) {
+  .review__numbers {
+    display: none;
+  }
+
+  .footer__icons {
+    gap: 25px;
+
+    .icon {
+      padding: 13px;
+    }
+  }
+
+  #hero {
+    height: 28vh;
+    background-position: center;
+  }
+
+  h1 {
+    font-size: 14px;
+  }
+
+  .green-title {
+    font-size: 12px;
+  }
+
+  .organick-btn {
+    border-radius: 6px;
+    gap: 6px;
+    padding: 7px 10px;
+
+    p {
+      font-size: 11px;
+    }
+
+    img {
+      width: 12px;
+    }
+  }
+
+  .hero__title {
+    margin-left: 30px;
+  }
+
+  #sales {
+    padding-block: 50px;
+
+    img {
+      width: 70%;
+    }
+  }
+}
