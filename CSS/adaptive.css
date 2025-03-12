@@ -213,4 +213,59 @@
       width: 70%;
     }
   }
+
+  .main-title {
+    font-size: 16px;
+
+    &.sm {
+      font-size: 14px;
+    }
+  }
+
+  .desc-text {
+    font-size: 10px;
+  }
+
+  #about {
+    padding-inline: 30px;
+  }
+
+  .about__left {
+    width: 100%;
+  }
+
+  #products {
+    margin-top: 30px;
+  }
+
+  .card {
+    width: 70%;
+  }
+
+  .swiper-button-next {
+    right: 3%;
+  }
+
+  .swiper-button-prev {
+    left: 3%;
+  }
+
+  .card__info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-wrapper {
+    margin-top: 40px;
+  }
+
+  #review {
+    margin-top: 40px;
+  }
+
+  .review__info {
+    hr {
+      margin-block: 20px;
+    }
+  }
 }
