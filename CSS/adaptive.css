@@ -162,7 +162,7 @@
   }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 500px) {
   .review__numbers {
     display: none;
   }
